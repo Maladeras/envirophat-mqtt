@@ -1,0 +1,9 @@
+[Unit]
+Description=Envirophat to MQTT 
+After=network-online.target
+
+[Service]
+ExecStart=/usr/local/bin/monitor.py
+Restart=always
+RestartSec=10
+TimeoutStopSec=60

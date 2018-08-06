@@ -1,0 +1,10 @@
+[db]
+host = my.host.com
+port = 8086
+dbname = mydb
+user = myuser
+password = mypassword
+
+[main]
+host = myhostname
+sleep = 15
